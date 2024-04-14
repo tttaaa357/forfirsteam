@@ -7,9 +7,5 @@ class DB(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[str] = mapped_column(String, nullable=False)
     surname: Mapped[str] = mapped_column(String, nullable=False)
-<<<<<<< Updated upstream:database.py
-    napravlenie: Mapped[bool] = mapped_column(Boolean, nullable=False)
-=======
     napravlenie: Mapped[bool] = mapped_column(Boolean, nullable=False)
     tgid: Mapped[int] = mapped_column(Integer, primary_key=True)
->>>>>>> Stashed changes:Proect.py
